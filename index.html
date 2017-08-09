@@ -32,7 +32,7 @@
                     <li class="nav-item"><a class="nav-link" href="./contactus.html"><span class="fa fa-address-card fa-lg"></span> Contact</a></li>
                 </ul>
                 <span class="navbar-text">
-                    <a data-toggle="modal" data-target="#loginModal">
+                    <a id="LoginButton">
                         <span class="fa fa-sign-in"></span> Login</a>
                 </span>
             </div>
@@ -66,7 +66,9 @@
                 </div>
                 <div class="modal-footer">
                     <div class="row ">
-                        <div class="col-sm-6 offset-2"> <button type="button" class="btn btn-default btn-sm" data-dismiss="modal">Cancel</button>
+                        <div class="col-sm-6">
+                            <button type="button" class="btn btn-default btn-sm" data-dismiss="modal">Cancel</button></div>
+                        <div class="col-sm-6">
                             <button type="submit" class="btn btn-primary btn-sm">Sign in</button></div>
                     </div>
                 </div>
@@ -192,7 +194,7 @@
                     <img src="img/logo.png" class="image-fluid">
                 </div>
                 <div class="col col-sm-3 align-self-center">
-                    <a type="button" class="btn btn-warning btn-sm  btn-block" data-toggle="modal" data-target="#reserveModal"> Reserve table</a>
+                    <a type="button" id="reserveButton" class="btn btn-warning btn-sm  btn-block"> Reserve table</a>
                 </div>
             </div>
         </div>

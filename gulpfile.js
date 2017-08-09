@@ -74,7 +74,7 @@ gulp.task('usemin', function() {
                     }],
                     js: [uglify(), rev()],
                     inlinejs: [uglify()],
-                    inlinecss: [cleanCss(), 'concat']
+                    inlinecss: [cleanCss(), 'concat']   
                 }))
         }))
         .pipe(gulp.dest('dist/'));
